@@ -27,7 +27,7 @@ switch ($data->type) {
                 "timestamp" => "",
                 "color" => "blue",
                 "footer" => [
-                    "text" => "(C) FurryTeam • Дата: $currenttime",
+                    "text" => "(C) VOID • Дата: $currenttime",
                     "icon_url" => "https://pngicon.ru/file/uploads/vk.png"
                 ],
                 "thumbnail" => [
