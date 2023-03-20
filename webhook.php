@@ -6,9 +6,7 @@ $confirmation_token = '0f5c65fc'; // Токен подтверждения
 $data = json_decode(file_get_contents('php://input')); 
 $lelu = json_decode(file_get_contents('php://input'), true); 
 switch ($data->type) { 
-    case 'confirmation': 
-    echo $confirmation_token; 
-    break; 
+    case 'confirmation': echo $confirmation_token; break; 
     case 'wall_post_new':
     $messageSS = $data->object->text;
     $currenttime = $data->object->date;
